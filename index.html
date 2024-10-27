@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio CJR</title>
+    <link rel="stylesheet" href="parte_css.css">
+    
+</head>
+<body>
+    
+    <script>
+        function funcao(){
+            var escolher = Math.floor(Math.random() * 10)
+            if (escolher %2)
+                alert("A foca escolheu " +document.querySelector(".classe1").value)
+            else
+            alert("A foca escolheu " + document.querySelector(".classe2").value)
+        }
+    </script>
+    <h1>Pergunte à foca</h1>
+    <br>
+    <header>
+        <img class = "classe" src="https://www.guiafoca.org/static/images/logo-guiafoca2020-480.png" alt="Não foi encontrada a imagem.">
+        <br>
+        <p><strong>Digite um número</strong></p>
+    </header>
+    <br>
+    <div>
+    <input type="text" class="classe1"> <strong>ou </strong><input type="text" class="classe2"> 
+    </div>
+    <br>
+    <button type="button" onclick="funcao()"><strong>Perguntar</strong></button>
+    <br>
+        <ul>
+            <li>
+                    <strong> Contato : (61) 99274-5527</strong>
+            </li>
+            <li>
+                <strong><a href="email.html">Email: marcoaureliofonseca2003@gmail.com</a></strong>
+            </li>
+            <li>
+                <strong><a href="instagram.html">Instagram: _marquito18</a></strong>
+            </li>
+        </ul>
+
+</body>
+</html>
